@@ -12,9 +12,15 @@ void draw(){
      }
         else if( keyCode == RIGHT){
        translate(50,0);
+        }
+       else if(keyCode == UP){
+         translate(0,-60);
+       }
+         else if (keyCode == DOWN){
+         translate(0,10);
+         }  
      }
    }
- }
  
  
 //Arms
